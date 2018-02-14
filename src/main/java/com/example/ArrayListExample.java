@@ -56,12 +56,10 @@ public class ArrayListExample {
         cityArrayList2.ensureCapacity(300);//try with and without ensureCapacity
         long startTime = System.nanoTime();
         for (int i = 0; i < 1000; i++) {
-            cityArrayList2.add(new City("T "+(i+10)));
+            cityArrayList2.add(new City("T " + (i + 10)));
         }
 
-        System.out.println(System.nanoTime()-startTime);
-
-
+        System.out.println(System.nanoTime() - startTime);
 
     }
 
