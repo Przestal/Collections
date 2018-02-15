@@ -1,11 +1,9 @@
-package com.example;
+package collections;
 
-import com.sun.xml.internal.bind.v2.TODO;
 import helper.City;
 import helper.CustomComparator;
 
 import java.util.Iterator;
-import java.util.Random;
 import java.util.TreeSet;
 
 public class TreeSetExample {
