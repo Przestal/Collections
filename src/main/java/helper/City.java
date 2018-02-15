@@ -33,25 +33,21 @@ public class City implements Comparable<City> {
         this.cityName = cityName;
     }
 
-
+    /** important to add implementation of hashCode **/
     @Override
     public int hashCode() {
         return this.cityName.hashCode();
     }
 
-
-    // This method not allow add the same object
+    /** important to add implementation of equals **/
     @Override
     public boolean equals(Object obj) {
-
         if (obj != null && obj instanceof City) {
             String cityName = ((City) obj).getCityName();
             if (cityName != null && cityName.equals(this.cityName)) {
                 return true;
             }
-
         }
-
         return false;
     }
 
