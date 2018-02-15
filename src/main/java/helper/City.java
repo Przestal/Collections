@@ -33,13 +33,17 @@ public class City implements Comparable<City> {
         this.cityName = cityName;
     }
 
-    /** important to add implementation of hashCode **/
+    /**
+     * important to add implementation of hashCode
+     **/
     @Override
     public int hashCode() {
         return this.cityName.hashCode();
     }
 
-    /** important to add implementation of equals **/
+    /**
+     * important to add implementation of equals
+     **/
     @Override
     public boolean equals(Object obj) {
         if (obj != null && obj instanceof City) {

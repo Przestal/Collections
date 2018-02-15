@@ -49,7 +49,7 @@ public class LinkedListExample {
         }
 
 
-        System.out.println("Element: "+cityLinkedList.element());
+        System.out.println("Element: " + cityLinkedList.element());
 
     }
 }

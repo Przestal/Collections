@@ -65,14 +65,13 @@ public class TreeSetExample {
             System.out.println(city1 + " population " + city1.getPopulation());
         }
 
-        System.out.println("PollFirst: "+cityTreeSet.pollFirst());
-        System.out.println("PollLast: "+cityTreeSet.pollLast());
+        System.out.println("PollFirst: " + cityTreeSet.pollFirst());
+        System.out.println("PollLast: " + cityTreeSet.pollLast());
 
         City subSetCity = new City("City 50k", 50000);
         City subSetCity1 = new City("City 80k", 80000);
-        System.out.print(" "+cityTreeSet.subSet(subSetCity,true,subSetCity1,true));
+        System.out.print(" " + cityTreeSet.subSet(subSetCity, true, subSetCity1, true));
     }
-
 
 
 }
